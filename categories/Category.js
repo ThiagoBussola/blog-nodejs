@@ -11,4 +11,8 @@ const Category = connection.define('categories', {
     }
 })
 
+
+// Tirar comentário apenas para atualizar a tabela ou seus relacionamentos
+// Category.sync({force:true})
+
 module.exports = Category;
